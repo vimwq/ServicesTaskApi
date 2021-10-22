@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sber</name>
+    </assembly>
+    <members>
+        <member name="M:Sber.Controllers.MyServicesTasksController.PostTodoItem(System.Int32,System.String,System.Boolean,System.DateTime)">
+            <summary>
+            Добавление задачи
+            </summary>
+            <remarks>
+            id - номер задачи
+            <p>description - описание задачи</p>
+            <p>type - тип задачи: рабочая(true) или личная(flase)</p>
+            <p>date - дата завершения </p>
+            </remarks>
+        </member>
+        <member name="M:Sber.Controllers.MyServicesTasksController.Get(System.Int32)">
+            <summary>
+            Поиск задачи
+            </summary>
+            <remarks>
+            id - номер задачи, которую необходимо найти
+            </remarks>
+        </member>
+        <member name="M:Sber.Controllers.MyServicesTasksController.DeleteTodoItem(System.Int32)">
+            <summary>
+            Удaление задачи
+            </summary>
+            <remarks>
+            id - номер задачи, которую необходимо удалить
+            </remarks> 
+        </member>
+        <member name="M:Sber.Controllers.MyServicesTasksController.PutType(System.Int32,System.Boolean)">
+            <summary>
+            Изменение типа задачи
+            </summary>
+            <remarks>
+            <p>id - номер задачи, которую необходимо изменить</p>
+            <p>type - тип задачи: рабочая(true) или личная(flase)</p>
+            </remarks>
+        </member>
+        <member name="M:Sber.Controllers.MyServicesTasksController.Putall(System.Int32,System.String,System.Boolean,System.DateTime)">
+            <summary>
+            Изменение всей задачи
+            </summary>
+            <remarks>
+            <p>id - номер задачи, которую необходимо изменить</p>
+            <p>description - описание задачи</p>
+            <p>type - тип задачи: рабочая(true) или личная(flase)</p>
+            <p>date - дата завершения задачи</p>
+            </remarks>
+        </member>
+    </members>
+</doc>
